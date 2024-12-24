@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", serif;
   color: #141414;
-  scroll-behavior: smooth;
 }
 
 ul {
