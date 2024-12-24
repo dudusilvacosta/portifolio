@@ -14,7 +14,7 @@
 .rodape__contato li {
   margin-bottom: 30px;
   font-weight: bold;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   line-height: 1.1;
   color: #fff;
 }
@@ -33,6 +33,6 @@
 
 @media screen and (max-width: 1200px) {
   .rodape__contato li {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
