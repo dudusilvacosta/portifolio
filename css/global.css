@@ -5,9 +5,9 @@
 }
 
 body {
-  padding: 0 1rem;
   font-family: "Roboto", serif;
   color: #141414;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -37,6 +37,18 @@ img {
   word-break: break-all;
 }
 
+.txt {
+  max-width: 40ch;
+  margin-bottom: 60px;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #525252;
+}
+
+.txt strong {
+  color: #141414;
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     grid-template-columns: 1fr;
@@ -44,7 +56,7 @@ img {
   }
 
   .subtitulo {
-    max-width: initial;
+    max-width: initial !important;
     font-size: 3rem;
     text-transform: capitalize;
   }

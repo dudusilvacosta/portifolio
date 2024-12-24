@@ -2,18 +2,6 @@
   color: #e0e0e0;
 }
 
-.experiencia__txt {
-  max-width: 40ch;
-  margin-bottom: 60px;
-  font-size: 1.5rem;
-  line-height: 1.33;
-  color: #525252;
-}
-
-.experiencia__txt strong {
-  color: #141414;
-}
-
 .empresa {
   padding: 20px;
   margin-bottom: 20px;
@@ -74,7 +62,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .experiencia__txt {
+  .txt {
     font-size: 1.25rem;
   }
 
@@ -100,7 +88,7 @@
     color: #141414;
   }
 
-  .experiencia__txt {
+  .txt {
     font-size: 1.25rem;
   }
 }
