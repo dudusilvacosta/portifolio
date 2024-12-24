@@ -27,8 +27,9 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .inicio {
-    grid-template-columns: 1fr 1fr;
+  .inicio img {
+    max-height: 310.8px;
+    margin: 0 auto;
   }
 
   .inicio h2 {
@@ -47,6 +48,10 @@
 }
 
 @media screen and (max-width: 850px) {
+  .inicio img {
+    max-width: 30%;
+  }
+
   .inicio h2 {
     font-size: 2.5rem;
   }
