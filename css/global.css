@@ -4,13 +4,16 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  font-family: "Lato", serif;
+  color: #141414;
 }
 
-body {
-  font-family: "Roboto", serif;
-  color: #141414;
+#the__main {
+  width: 100%;
+  height: calc(100svh - 123.39px);
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -51,6 +54,20 @@ img {
 
 .txt strong {
   color: #141414;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: orange; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid orange; /* creates padding around scroll thumb */
 }
 
 @media screen and (max-width: 1024px) {
