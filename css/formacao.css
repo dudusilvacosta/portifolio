@@ -112,6 +112,8 @@
 }
 
 .projetos {
+  width: 100vw;
+  max-width: 940px;
   margin-bottom: 60px;
 }
 
@@ -119,16 +121,22 @@
   background: url("../img/git.svg") no-repeat center center;
 }
 
-.projetos li {
+.projeto {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projeto iframe {
+  min-height: 720px;
+  background-color: #c7c7c7;
 }
 
 .idiomas h4::before {
   background: url("../img/idiomas.svg") no-repeat center center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .formacao .subtitulo {
     color: #fff;
   }
