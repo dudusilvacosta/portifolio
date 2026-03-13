@@ -111,15 +111,15 @@
   color: #8f8f8f;
 }
 
-.cursos {
+.projetos {
   margin-bottom: 60px;
 }
 
-.cursos h4::before {
-  background: url("../img/cursos.svg") no-repeat center center;
+.projetos h4::before {
+  background: url("../img/git.svg") no-repeat center center;
 }
 
-.cursos li {
+.projetos li {
   display: flex;
   justify-content: space-between;
 }
