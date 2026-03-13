@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 561px) {
   .header h1 {
-    font-size: 90%;
+    font-size: 95%;
   }
   .header__menu {
     justify-content: center;
