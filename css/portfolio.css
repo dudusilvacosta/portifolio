@@ -1,24 +1,24 @@
-.formacao {
+.portfolio {
   color: #fff;
-  background-color: #141414;
+  background-color: #f5f5f5;
 }
 
-.formacao .container {
+.portfolio .container {
   padding: 0 1rem;
   padding: 120px 20px !important;
   gap: 40px !important;
 }
 
-.formacao .subtitulo {
+.portfolio .subtitulo {
   color: #000;
   max-width: initial;
 }
 
-.formacao .txt {
+.portfolio .txt {
   color: #a3a3a3;
 }
 
-.formacao .txt strong {
+.portfolio .txt strong {
   color: #fff;
 }
 
@@ -179,11 +179,11 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .formacao .subtitulo {
+  .portfolio .subtitulo {
     color: #fff;
   }
 
-  .formacao .txt {
+  .portfolio .txt {
     font-size: 1.25rem !important;
   }
 
