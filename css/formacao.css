@@ -178,7 +178,7 @@
   background: url("../img/idiomas.svg") no-repeat center center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .formacao .subtitulo {
     color: #fff;
   }

@@ -10,7 +10,7 @@
 }
 
 .portfolio .subtitulo {
-  color: #000;
+  color: #fff;
   max-width: initial;
 }
 
@@ -113,8 +113,6 @@
 }
 
 .projetos {
-  width: 100%;
-  max-width: 940px;
   margin-bottom: 60px;
 }
 
@@ -172,10 +170,6 @@
   margin-top: 5px;
   font-size: 0.9rem;
   color: #555;
-}
-
-.idiomas h4::before {
-  background: url("../img/idiomas.svg") no-repeat center center;
 }
 
 @media screen and (max-width: 1200px) {

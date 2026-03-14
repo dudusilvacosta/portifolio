@@ -1,5 +1,4 @@
 .experiencia .subtitulo {
-  max-width: 290px;
   color: #e0e0e0;
 }
 
@@ -15,7 +14,6 @@
 }
 
 .empresa::before {
-  content: "";
   display: block;
   width: 4px;
   height: 20px;
@@ -62,7 +60,7 @@
   background: #fff;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .txt {
     font-size: 1.25rem;
   }
