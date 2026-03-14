@@ -4,12 +4,14 @@
 }
 
 .formacao .container {
+  padding: 0 1rem;
   padding: 120px 20px !important;
   gap: 40px !important;
 }
 
 .formacao .subtitulo {
   color: #000;
+  max-width: initial;
 }
 
 .formacao .txt {
@@ -111,7 +113,7 @@
 }
 
 .projetos {
-  width: 100vw;
+  width: 100%;
   max-width: 940px;
   margin-bottom: 60px;
 }
