@@ -62,7 +62,7 @@
   background: #fff;
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1200px) {
   .txt {
     font-size: 1.25rem;
   }

@@ -26,7 +26,7 @@
   color: #525252;
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1200px) {
   .inicio img {
     max-height: 310.8px;
     margin: 0 auto;
