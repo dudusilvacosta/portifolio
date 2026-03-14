@@ -1,14 +1,14 @@
+.logo {
+  font-family: "Caprasimo", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #022e51;
+}
 .header__menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
   gap: 5px;
-}
-
-.header__menu h1 {
-  font-size: 1rem;
-  color: #141414;
-  line-height: 1.3;
 }
 
 .header__menu a {

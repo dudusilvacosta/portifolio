@@ -26,17 +26,6 @@
   position: relative;
 }
 
-.content::after {
-  content: "";
-  display: block;
-  width: 130px;
-  height: 100px;
-  background: url("../img/detalhe.svg") no-repeat center;
-  position: absolute;
-  bottom: -40px;
-  left: 20px;
-}
-
 .graduacoes {
   margin-bottom: 60px;
   display: flex;
