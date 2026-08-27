@@ -1,6 +1,6 @@
 .portfolio {
-  color: #fff;
-  background-color: #f5f5f5;
+  color: var(--color-white);
+  background-color: var(--color-gray-200);
 }
 
 .portfolio .container {
@@ -10,74 +10,24 @@
 }
 
 .portfolio .subtitulo {
-  color: #fff;
+  color: var(--color-ink-soft);
   max-width: initial;
 }
 
 .portfolio .txt {
-  color: #a3a3a3;
+  color: var(--color-gray-500);
 }
 
 .portfolio .txt strong {
-  color: #fff;
-}
-
-.content {
-  position: relative;
-}
-
-.graduacoes {
-  margin-bottom: 60px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.graduacao {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  background-color: #000;
-  border-radius: 4px;
-}
-
-.graduacao__tipo {
-  margin-bottom: 10px;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  color: #a3a3a3;
-}
-
-.graduacao__nome {
-  margin-bottom: 40px;
-  font-size: 1.125rem;
-  line-height: 1.4;
-  position: relative;
-  flex: 1;
-}
-
-.graduacao__nome::before {
-  content: "";
-  display: block;
-  width: 4px;
-  height: 20px;
-  background: linear-gradient(#27418c, #80d490);
-  position: absolute;
-  left: -24px;
-}
-
-.instituicao {
-  font-size: 1.125rem;
-  color: #a3a3a3;
+  color: var(--color-white);
 }
 
 .extras h4 {
   margin-bottom: 30px;
-  font-size: 0.875rem;
+  font-size: var(--fs-xs);
   line-height: 1.4;
   text-transform: uppercase;
-  color: #8f8f8f;
+  color: var(--color-gray-600);
   position: relative;
 }
 
@@ -93,12 +43,12 @@
 
 .extras li {
   margin-bottom: 20px;
-  font-size: 1.25rem;
+  font-size: var(--fs-lg);
   line-height: 1.1;
 }
 
 .extras span {
-  color: #8f8f8f;
+  color: var(--color-gray-600);
 }
 
 .projetos {
@@ -124,20 +74,32 @@
 
 .projeto__card {
   display: block;
-  background: #fff;
+  position: relative;
+  background: var(--color-white);
   border-radius: 4px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px var(--shadow-sm);
   transition:
     transform 0.2s,
     box-shadow 0.2s;
 }
 
+.projeto__card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-accent-start), var(--color-accent-end));
+  z-index: 1;
+}
+
 .projeto__card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px var(--shadow-md);
 }
 
 .projeto__card img {
@@ -158,16 +120,12 @@
 .projeto__info p {
   margin-top: 5px;
   font-size: 0.9rem;
-  color: #555;
+  color: var(--color-gray-700);
 }
 
 @media screen and (max-width: 1200px) {
-  .portfolio .subtitulo {
-    color: #a3a3a3;
-  }
-
   .portfolio .txt {
-    font-size: 1.25rem !important;
+    font-size: var(--fs-lg) !important;
   }
 
   .extras h4::before {

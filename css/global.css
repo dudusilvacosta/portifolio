@@ -1,3 +1,41 @@
+:root {
+  /* Cores neutras - tom frio, alinhado ao azul-marinho de marca */
+  --color-black: #0a1620;
+  --color-ink: #10202f; /* texto principal / fundos escuros fortes */
+  --color-ink-soft: #2c3e50; /* títulos em fundo claro, tooltip */
+  --color-gray-700: #4f6274; /* texto secundário em fundo claro */
+  --color-gray-600: #7c8fa0; /* texto terciário / labels */
+  --color-gray-500: #a9b8c4; /* texto suave em fundo escuro */
+  --color-gray-400: #c7d3db; /* texto suave no rodapé */
+  --color-gray-300: #dde5ea; /* branco suavizado: títulos em fundo escuro, hover */
+  --color-gray-200: #f2f6f8; /* fundo claro de seção */
+  --color-white: #fff;
+
+  /* Cores de marca: azul-marinho + verde-esmeralda */
+  --color-primary: #022e51;
+  --color-primary-dark: #01213a;
+  --color-accent-start: #27418c;
+  --color-accent-end: #2ecc8f;
+
+  /* Sombras */
+  --shadow-sm: rgba(0, 0, 0, 0.1);
+  --shadow-md: rgba(0, 0, 0, 0.15);
+  --shadow-accent: rgba(39, 65, 140, 0.4);
+
+  /* Escala de tamanhos de fonte */
+  --fs-2xs: 0.75rem; /* 12px */
+  --fs-xs: 0.875rem; /* 14px */
+  --fs-sm: 1rem; /* 16px */
+  --fs-md: 1.125rem; /* 18px */
+  --fs-lg: 1.25rem; /* 20px */
+  --fs-xl: 1.5rem; /* 24px */
+  --fs-2xl: 2rem; /* 32px */
+  --fs-3xl: 2.5rem; /* 40px */
+  --fs-4xl: 3.5rem; /* 56px */
+  --fs-5xl: 4.5rem; /* 72px */
+  --fs-6xl: 6rem; /* 96px */
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -6,7 +44,7 @@
 
 body {
   font-family: "Fira Sans", serif;
-  color: #141414;
+  color: var(--color-ink);
 }
 
 #the__main {
@@ -37,7 +75,7 @@ img {
 }
 
 .subtitulo {
-  font-size: 6rem;
+  font-size: var(--fs-6xl);
   line-height: 1;
   text-transform: uppercase;
   word-break: break-all;
@@ -46,13 +84,13 @@ img {
 .txt {
   max-width: 40ch;
   margin-bottom: 60px;
-  font-size: 1.5rem;
+  font-size: var(--fs-xl);
   line-height: 1.33;
-  color: #525252;
+  color: var(--color-gray-700);
 }
 
 .txt strong {
-  color: #141414;
+  color: var(--color-ink);
 }
 
 body::-webkit-scrollbar {
@@ -77,7 +115,7 @@ body::-webkit-scrollbar-thumb {
 
   .subtitulo {
     max-width: initial !important;
-    font-size: 2rem;
+    font-size: var(--fs-2xl);
     text-transform: capitalize;
   }
 }

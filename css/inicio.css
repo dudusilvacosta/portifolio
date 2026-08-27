@@ -4,14 +4,49 @@
 
 .inicio h2 {
   margin-bottom: 30px;
-  font-size: 4.5rem;
+  font-size: var(--fs-5xl);
   line-height: 1.125;
   position: relative;
 }
 
 .inicio p {
-  font-size: 1.5rem;
-  color: #525252;
+  font-size: var(--fs-xl);
+  color: var(--color-gray-700);
+}
+
+.inicio__cta {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: var(--fs-sm);
+  color: var(--color-ink);
+  text-decoration: none;
+  background-color: var(--color-gray-200);
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--color-gray-300);
+}
+
+.btn--primary {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  transition:
+    background-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.btn--primary:hover {
+  background-color: var(--color-primary-dark);
+  box-shadow: 0 4px 14px var(--shadow-accent);
 }
 
 @media screen and (max-width: 1300px) {
@@ -21,11 +56,11 @@
   }
 
   .inicio h2 {
-    font-size: 3.5rem;
+    font-size: var(--fs-4xl);
   }
 
   .inicio p {
-    font-size: 1.25rem;
+    font-size: var(--fs-lg);
   }
 }
 
@@ -35,6 +70,6 @@
   }
 
   .inicio h2 {
-    font-size: 2.5rem;
+    font-size: var(--fs-3xl);
   }
 }

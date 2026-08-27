@@ -2,7 +2,7 @@
   font-family: "Caprasimo", serif;
   font-weight: 500;
   font-style: normal;
-  color: #022e51;
+  color: var(--color-primary);
 }
 .header__menu {
   display: flex;
@@ -13,82 +13,66 @@
 
 .header__menu a {
   display: block;
-  font-size: 1rem;
-  color: #141414;
+  font-size: var(--fs-sm);
+  color: var(--color-ink);
   padding: 10px 20px;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: var(--color-gray-200);
   border-radius: 4px;
   position: relative;
 }
 
-#menu__inicio:hover::before {
-  content: "Ir para Início";
+.header__menu a::after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 6px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-accent-start), var(--color-accent-end));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s;
+}
+
+.header__menu a:hover::after {
+  transform: scaleX(1);
+}
+
+#menu__inicio:hover::before,
+#menu__experiencia:hover::before,
+#menu__portfolio:hover::before,
+#menu__formacao:hover::before,
+#menu__contato:hover::before {
   position: absolute;
   top: 111%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #333;
-  color: #fff;
+  background-color: var(--color-ink-soft);
+  color: var(--color-white);
   padding: 5px;
   border-radius: 4px;
   white-space: nowrap;
-  font-size: 12px;
+  font-size: var(--fs-2xs);
   z-index: 10;
-  opacity: 0;
-  transition: opacity 0.3s;
   opacity: 1;
+  transition: opacity 0.3s;
+}
+
+#menu__inicio:hover::before {
+  content: "Ir para Início";
 }
 #menu__experiencia:hover::before {
   content: "Ir para Experiência";
-  position: absolute;
-  top: 111%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #333;
-  color: #fff;
-  padding: 5px;
-  border-radius: 4px;
-  white-space: nowrap;
-  font-size: 12px;
-  z-index: 10;
-  opacity: 0;
-  transition: opacity 0.3s;
-  opacity: 1;
+}
+#menu__portfolio:hover::before {
+  content: "Ir para Portfólio";
 }
 #menu__formacao:hover::before {
   content: "Ir para Formação";
-  position: absolute;
-  top: 111%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #333;
-  color: #fff;
-  padding: 5px;
-  border-radius: 4px;
-  white-space: nowrap;
-  font-size: 12px;
-  z-index: 10;
-  opacity: 0;
-  transition: opacity 0.3s;
-  opacity: 1;
 }
 #menu__contato:hover::before {
   content: "Ir para Contato";
-  position: absolute;
-  top: 111%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #333;
-  color: #fff;
-  padding: 5px;
-  border-radius: 4px;
-  white-space: nowrap;
-  font-size: 12px;
-  z-index: 10;
-  opacity: 0;
-  transition: opacity 0.3s;
-  opacity: 1;
 }
 
 @media screen and (max-width: 1300px) {

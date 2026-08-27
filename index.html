@@ -1,376 +1,516 @@
 <!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eduardo Silva Costa, desenvolvedor Full Stack em Belém do Pará. Experiência com Vue, React, React Native, PHP, Laravel e Node.js."
+    />
+    <meta
+      property="og:title"
+      content="Eduardo Silva Costa | Desenvolvedor Full Stack"
+    />
+    <meta
+      property="og:description"
+      content="Desenvolvedor Full Stack com experiência em Vue, React, React Native, PHP, Laravel e Node.js. Localizado em Belém do Pará."
+    />
+    <meta
+      property="og:image"
+      content="https://eduardosilvacosta.netlify.app/img/eu.png"
+    />
+    <meta property="og:url" content="https://eduardosilvacosta.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <title>Eduardo Silva Costa | Desenvolvedor Full Stack</title>
+    <link rel="shortcut icon" href="./img/eu.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- icons google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta property="title" content="Eduardo Silva Costa" />
-  <meta property="description" content="Desenvolvedor Web & Mobile Júnior. Localizado em Belém do Pará" />
-  <meta property="image" content="https://example.com/imagem-destacada.jpg" />
-  <meta property="url" content="https://eduardosilvacosta.netlify.app/" />
-  <meta property="type" content="website" />
-  <title>Desenvolvedor Web & Mobile</title>
-  <link rel="shortcut icon" href="./img/eu.png" type="image/x-icon" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <!-- icons google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <header class="container header">
+      <h1 id="logo" class="logo" title="logo" aria-label="eduador silva costa">
+        Eduardo Silva Costa
+      </h1>
+      <nav
+        id="navegacao"
+        class="navegacao"
+        title="navegacao"
+        aria-label="navegação"
+      >
+        <ul class="header__menu">
+          <li><a id="menu__inicio" href="#inicio">Início</a></li>
+          <li>
+            <a id="menu__experiencia" href="#experiencia">Experiência</a>
+          </li>
+          <li>
+            <a id="menu__portfolio" href="#portfolio">Portfólio</a>
+          </li>
+          <li>
+            <a id="menu__formacao" href="#formacao">Formação</a>
+          </li>
+          <li>
+            <a id="menu__contato" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header class="container header">
-    <h1 id="logo" class="logo" title="logo" aria-label="eduador silva costa">
-      Eduardo Silva Costa
-    </h1>
-    <nav id="navegacao" class="navegacao" title="navegacao" aria-label="navegação">
-      <ul class="header__menu">
-        <li><a id="menu__inicio" href="#inicio">Início</a></li>
-        <li>
-          <a id="menu__experiencia" href="#experiencia">Experiência</a>
-        </li>
-        <li>
-          <a id="menu__portfolio" href="#portfolio">Portfólio</a>
-        </li>
-        <li>
-          <a id="menu__formacao" href="#formacao">Formação</a>
-        </li>
-        <li>
-          <a id="menu__contato" href="#contato">Contato</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <div id="the__main">
-    <main>
-      <!-- inicio -->
-      <section id="inicio" class="container inicio" title="início" aria-label="início">
-        <img src="./img/eu.png" alt="Imagem do Eduardo" width="250" height="250" />
-        <div>
-          <h2>Desenvolvedor<br />Web & Mobile</h2>
-          <p>Localizado em Belém do Pará</p>
-        </div>
-      </section>
-      <!-- experiencia -->
-      <section class="container experiencia" id="experiencia" title="experiência" aria-label="experiência">
-        <h3 class="subtitulo">Experiência</h3>
-        <div>
-          <p class="txt">
-            <strong>Desenvolvo</strong> interfaces reativas com <strong>Vue</strong>, <strong>React</strong> e <strong>Typescript</strong>, e <strong>APIs</strong> com <strong>PHP</strong> e <strong>Laravel</strong>. Aplicativos móveis é com <strong>Expo</strong> e trabalhei com bancos <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Firebase</strong> e <strong>Supabase</strong>.
-            Conheço <strong>Docker</strong>, <strong>Git</strong>, metodologias ágeis como <strong>Scrum</strong> e sistemas <strong>Linux</strong> e <strong>macOS</strong>.
-          </p>
-          <div class="empresa">
-            <span class="empresa__ano">2024 - 2026</span>
-            <h4 class="empresa__titulo">Polícia Civil do Pará</h4>
-            <span class="empresa__titulo">Técnico em gestão de informática</span>
-            <div>
-              <p class="empresa__txt">
-                Como desenvolvedor trabalhei com a manutenção e evolução dos sistemas da
-                Polícia Civil do Pará, Trabalhando em soluções mais sofisticadas
-                que atendem às necessidades dinâmicas da organização. Usando
-                entre outros HTML, CSS, JavaScript, Vue, PHP e Laravel. Minha
-                função envolve a criação e manutenção de funcionalidades tanto
-                no front-end quanto no back-end, garantindo que os sistemas
-                sejam eficientes, seguros e atendam aos requisitos dos usuários.
-                Além disso, participo ativamente de reuniões de equipe, onde
-                discutimos melhorias e inovações para os sistemas existentes,
-                bem como o desenvolvimento de novos projetos. Essa experiência
-                tem sido fundamental para aprimorar minhas habilidades técnicas
-                e de colaboração, permitindo-me contribuir de forma
-                significativa para a evolução dos sistemas da Polícia Civil.
-              </p>
+    <div id="the__main">
+      <main>
+        <!-- inicio -->
+        <section
+          id="inicio"
+          class="container inicio"
+          title="início"
+          aria-label="início"
+        >
+          <img
+            src="./img/eu.png"
+            alt="Imagem do Eduardo"
+            width="250"
+            height="250"
+          />
+          <div>
+            <h2>Desenvolvedor<br />Full Stack</h2>
+            <p>Localizado em Belém do Pará</p>
+            <div class="inicio__cta">
+              <a
+                class="btn btn--primary"
+                href="./assets/curriculo-eduardo-silva-costa.pdf"
+                download
+                >Baixar Currículo</a
+              >
+              <a
+                class="btn"
+                href="https://github.com/dudusilvacosta"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+              <a
+                class="btn"
+                href="https://www.linkedin.com/in/eduardo-silva-costa/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
             </div>
-            <ul class="empresa__habilidades">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>JavScript</li>
-              <li>JQuery</li>
-              <li>Vue</li>
-              <li>Quasar</li>
-              <li>Vuetify</li>
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>PostgreSQL</li>
-              <li>Git</li>
-              <li>Docker</li>
-              <li>Swagger</li>
-              <li>Asana</li>
-              <li>Linux</li>
-            </ul>
           </div>
-
-          <div class="empresa">
-            <span class="empresa__ano">2025 - 2025</span>
-            <h4 class="empresa__titulo">
-              Amazon Tech Solar – PCT Guamá
-            </h4>
-            <span class="empresa__titulo">Desenvolvedor Estagiário</span>
-            <div>
-              <p class="empresa__txt">
-                Atuação no laboratório de inovação da Amazon Tech Solar no PCT
-                Guamá, contribuindo para o desenvolvimento de uma aplicação
-                mobile voltada para monitoramento de sistemas de energia solar.
-                Responsável pela integração do front-end, desenvolvido em React
-                Native com TypeScript, com a API, garantindo a comunicação
-                eficiente entre o aplicativo e os componentes de hardware das
-                placas solares. Colaboração com equipes multidisciplinares para
-                implementar funcionalidades que permitem aos usuários visualizar
-                dados de consumo energético, desempenho dos painéis solares e
-                outras métricas relevantes.
-              </p>
-            </div>
-            <ul class="empresa__habilidades">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavScript</li>
-              <li>React Native</li>
-              <li>Git</li>
-              <li>Swagger</li>
-            </ul>
-          </div>
-          <div class="empresa">
-            <span class="empresa__ano">2024</span>
-
-            <h4 class="empresa__titulo">
-              Escola de Gestão Pública do Pará (EGPA)
-            </h4>
-
-            <span class="empresa__cargo">
-              Instrutor de Informática
-            </span>
-
-            <p class="empresa__txt">
-              Primeira experiência em docência atuando como instrutor de informática
-              básica para servidores públicos. Planejei e ministrei aulas práticas
-              focadas no uso de Windows e Excel, auxiliando os alunos no desenvolvimento
-              de competências digitais essenciais para o ambiente de trabalho.
-            </p>
-
-            <ul class="empresa__habilidades">
-              <li>Planejamento de aulas</li>
-              <li>Didática</li>
-              <li>Metodologia de ensino</li>
-              <li>Design instrucional</li>
-              <li>Avaliação de aprendizagem</li>
-              <li>Windows</li>
-              <li>Excel</li>
-            </ul>
-          </div>
-          <div class="empresa">
-            <span class="empresa__ano">2024 - 2024</span>
-            <h4 class="empresa__titulo">Path Informática</h4>
-            <span class="empresa__titulo">Desenvolvedor web</span>
-            <p class="empresa__txt">
-              Na Path, integrei a equipe de desenvolvimento de um novo sistema.
-              Minha responsabilidade foi criar as interfaces usando React.
-              Trabalhei em colaboração com a equipe de backend, que utilizava
-              Adonis.js, permitindo-me aprender sobre a ferramenta e até
-              contribuir com a criação de rotas. Este trabalho foi uma excelente
-              oportunidade para aprimorar minhas habilidades como desenvolvedor
-              full JavaScript.
-            </p>
-            <ul class="empresa__habilidades">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavScript</li>
-              <li>React</li>
-              <li>Prime React</li>
-              <li>TypeScript</li>
-              <li>Componentização</li>
-              <li>Adonis Framework</li>
-              <li>Git</li>
-            </ul>
-          </div>
-
-          <div class="empresa">
-            <span class="empresa__ano">2023 - 2024</span>
-            <h4 class="empresa__titulo">Polícia Civil do Pará</h4>
-            <span class="empresa__titulo">Desenvolvedor Estagiário</span>
-            <p class="empresa__txt">
-              Durante meu estágio na Delegacia Geral de Polícia Civil do Estado
-              do Pará, tive a oportunidade de trabalhar na DIME - Diretoria de
-              Informática, Manutenção e Estatística, mais especificamente na
-              Divisão de Desenvolvimento de Sistemas. Nesse papel, atuei como
-              desenvolvedor. No lado do front-end e do back-end para
-              desenvolver, evoluir e dar manutenção nos sistemas da polícia.
-            </p>
-            <ul class="empresa__habilidades">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>JavScript</li>
-              <li>JQuery</li>
-              <li>Vue</li>
-              <li>Quasar</li>
-              <li>Vuetify</li>
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>PostgreSQL</li>
-              <li>Git</li>
-              <li>Docker</li>
-              <li>Swagger</li>
-              <li>Asana</li>
-              <li>Linux</li>
-            </ul>
-          </div>
-
-          <div class="empresa">
-            <span class="empresa__ano">2021 - 2022</span>
-            <h4 class="empresa__titulo">UTIC</h4>
-            <span class="empresa__titulo">Analista Trainee</span>
-            <article class="empresa__txt">
-              Ser trainee em um programa da UTIC, uma empresa Jr da UFRA, foi
-              uma experiência transformadora. Este programa simulou uma startup
-              que desenvolvia sites, Esse projeto me permitiu adquirir uma vasta
-              gama de habilidades, como desenvolvimento web, usabilidade,
-              reuniões online, spring, Trello, marketin. A proposta era gerar um
-              ambiente real de trabalho.
-            </article>
-            <ul class="empresa__habilidades">
-              <li>Metodologias ágeis</li>
-              <li>Scrum</li>
-              <li>Kanban</li>
-              <li>Trello</li>
-              <li>Levantamento de requisitos</li>
-              <li>Briefing</li>
-              <li>UX/UI</li>
-              <li>Figma</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- portifolio -->
-      <section class="portfolio" id="portfolio" title="portfolio" aria-label="portfolio">
-        <div class="container">
-          <h3 class="subtitulo">Portfólio</h3>
-
-          <div class="extras">
-            <div class="projetos">
-
-              <div class="projetos__grid">
-
-                <a href="https://naipedebanjo.netlify.app/" target="_blank" class="projeto__card">
-                  <img src="./img/naipe.png" alt="Projeto Naipe de Banjo">
-                  <div class="projeto__info">
-                    <h5>Naipe de Banjo</h5>
-                    <p>Site educacional sobre banjo.</p>
-                  </div>
-                </a>
-
-                <a href="https://guiadopara.netlify.app/" target="_blank" class="projeto__card">
-                  <img src="./img/guia.png" alt="Projeto Guia do Para">
-                  <div class="projeto__info">
-                    <h5>Guia do Para</h5>
-                    <p>Site informativo sobre o estado do Pará.</p>
-                  </div>
-                </a>
-
-                <a href="https://api-pokemon-quasar.netlify.app/" target="_blank" class="projeto__card">
-                  <img src="./img/apipoke.png" alt="Api Pokémon">
-                  <div class="projeto__info">
-                    <h5>API Pokémon</h5>
-                    <p>Api Pokémon + Quasar.</p>
-                  </div>
-                </a>
-
-                <a href="https://narrativasdocentes.netlify.app/" target="_blank" class="projeto__card">
-                  <img src="./img/narrativas.png" alt="Projeto Narrativas Docentes">
-                  <div class="projeto__info">
-                    <h5>Narrativas Docentes</h5>
-                    <p>Projeto sobre relatos e experiências docentes.</p>
-                  </div>
-                </a>
-
-                <a href="https://praticaspedagogicas.netlify.app/" target="_blank" class="projeto__card">
-                  <img src="./img/praticas.png" alt="Projeto Práticas Pedagógicas">
-                  <div class="projeto__info">
-                    <h5>Práticas Pedagógicas</h5>
-                    <p>Conteúdos sobre práticas educacionais.</p>
-                  </div>
-                </a>
-
-              </div>
-
-            </div>
-
-          </div>
-      </section>
-      <!-- formacao -->
-      <section id="formacao" class="formacao" title="formação" aria-label="formação">
-        <div class="container content">
-          <h3 class="subtitulo">Formação</h3>
+        </section>
+        <!-- experiencia -->
+        <section
+          class="container experiencia"
+          id="experiencia"
+          title="experiência"
+          aria-label="experiência"
+        >
+          <h3 class="subtitulo">Experiência</h3>
           <div>
             <p class="txt">
-              Os cursos de
-              <strong>Análise e Desenvolvimento de Sistemas</strong> e
-              <strong>Licenciatura em Computação</strong> me proporcionaram uma
-              base sólida nas áreas de desenvolvimento de software e educação em
-              tecnologia.
+              <strong>Desenvolvo</strong> aplicações web com
+              <strong>Vue</strong>, <strong>React</strong> e <strong>Typescript</strong>, e
+              <strong>APIs</strong> com <strong>PHP</strong>,
+              <strong>Laravel</strong> e <strong>Node</strong>. Trabalho com
+              bancos <strong>MySQL</strong>, <strong>PostgreSQL</strong>,
+              <strong>Firebase</strong> e <strong>Supabase</strong>. Conheço
+              <strong>Docker</strong>, <strong>Git e GitLab</strong>, metodologias ágeis
+              como <strong>Scrum</strong> e <strong>Kanban</strong>, e sistemas
+              <strong>Linux</strong> e <strong>macOS</strong>.
             </p>
-            <ul class="graduacoes">
-              <li class="graduacao">
-                <span class="graduacao__tipo">Licenciado</span>
-                <h4 class="graduacao__nome">
-                  Licenciatura em Computação
-                </h4>
-                <span class="instituicao">UFRA - 2026</span>
-              </li>
-              <li class="graduacao">
-                <span class="graduacao__tipo">Tecnólogo</span>
-                <h4 class="graduacao__nome">
-                  Análise e Desenvolvimento de Sistemas
-                </h4>
-                <span class="instituicao">Estácio - 2021</span>
-              </li>
-            </ul>
-            <div class="idiomas">
-              <h4>Idiomas</h4>
-              <ul>
-                <li>
-                  Inglês <span> / Básico</span>
-                </li>
+            <div class="empresa">
+              <span class="empresa__ano">Maio/2026 - Atual</span>
+              <h4 class="empresa__titulo">Montreal Informática</h4>
+              <span class="empresa__titulo"
+                >Desenvolvedor Full Stack (alocado na Polícia Civil do
+                Pará)</span
+              >
+              <div>
+                <p class="empresa__txt">
+                  Atuo na sustentação e evolução de sistemas internos utilizados
+                  pela Polícia Civil do Estado do Pará, desenvolvendo e mantendo
+                  aplicações com <strong>Vue.js</strong>, <strong>PHP</strong> e
+                  <strong>Laravel</strong>. Implemento novas funcionalidades a
+                  partir de requisitos de negócio, corrijo bugs, trabalho em
+                  melhorias de desempenho e participo de testes, homologação e
+                  implantação de funcionalidades.
+                </p>
+              </div>
+              <ul class="empresa__habilidades">
+                <li>Vue</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>PostgreSQL</li>
+                <li>Git</li>
+                <li>GitLab</li>
+                <li>Docker</li>
+                <li>Swagger</li>
+                <li>Linux</li>
+              </ul>
+            </div>
+
+            <div class="empresa">
+              <span class="empresa__ano">Maio/2024 - Maio/2026</span>
+              <h4 class="empresa__titulo">Polícia Civil do Pará</h4>
+              <span class="empresa__titulo"
+                >Técnico em Gestão de Informática (PSS)</span
+              >
+              <div>
+                <p class="empresa__txt">
+                  Como desenvolvedor trabalhei com a manutenção e evolução dos
+                  sistemas da Polícia Civil do Pará, implementando melhorias e
+                  novas funcionalidades para demandas operacionais. Minha função
+                  envolveu a criação e manutenção de funcionalidades tanto no
+                  front-end quanto no back-end, usando entre outros HTML, CSS,
+                  JavaScript, Vue, PHP e Laravel, garantindo que os sistemas
+                  fossem eficientes, seguros e atendessem aos requisitos dos
+                  usuários. Participei ativamente da análise de requisitos,
+                  testes e validação de funcionalidades, além de reuniões de
+                  equipe para discutir melhorias e novos projetos.
+                </p>
+              </div>
+              <ul class="empresa__habilidades">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavScript</li>
+                <li>JQuery</li>
+                <li>Vue</li>
+                <li>Quasar</li>
+                <li>Vuetify</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>PostgreSQL</li>
+                <li>Git</li>
+                <li>Docker</li>
+                <li>Swagger</li>
+                <li>Asana</li>
+                <li>Linux</li>
+              </ul>
+            </div>
+
+            <div class="empresa">
+              <span class="empresa__ano">Abr/2025 - Set/2025</span>
+              <h4 class="empresa__titulo">Amazon Tech Solar – PCT Guamá</h4>
+              <span class="empresa__titulo"
+                >Desenvolvedor Mobile (Estagiário)</span
+              >
+              <div>
+                <p class="empresa__txt">
+                  Atuação no laboratório de inovação da Amazon Tech Solar no PCT
+                  Guamá, contribuindo para o desenvolvimento de uma aplicação
+                  mobile voltada para monitoramento de sistemas de energia
+                  solar. Responsável pela integração do front-end, desenvolvido
+                  em React Native com TypeScript, com a API, garantindo a
+                  comunicação eficiente entre o aplicativo e os componentes de
+                  hardware das placas solares. Colaborei no planejamento das
+                  entregas, na revisão das implementações e na correção de
+                  falhas e melhorias na experiência do usuário.
+                </p>
+              </div>
+              <ul class="empresa__habilidades">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavScript</li>
+                <li>React Native</li>
+                <li>Git</li>
+                <li>Swagger</li>
+              </ul>
+            </div>
+
+            <div class="empresa">
+              <span class="empresa__ano">Mar/2023 - Mar/2024</span>
+              <h4 class="empresa__titulo">Polícia Civil do Pará</h4>
+              <span class="empresa__titulo"
+                >Desenvolvedor Web (Estagiário)</span
+              >
+              <p class="empresa__txt">
+                Durante meu estágio na Delegacia Geral de Polícia Civil do
+                Estado do Pará, tive a oportunidade de trabalhar na DIME -
+                Diretoria de Informática, Manutenção e Estatística, mais
+                especificamente na Divisão de Desenvolvimento de Sistemas. Nesse
+                papel, atuei como desenvolvedor no lado do front-end e do
+                back-end, desenvolvendo sistemas web com Vue.js e Laravel e
+                realizando manutenção evolutiva.
+              </p>
+              <ul class="empresa__habilidades">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavScript</li>
+                <li>JQuery</li>
+                <li>Vue</li>
+                <li>Quasar</li>
+                <li>Vuetify</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>PostgreSQL</li>
+                <li>Git</li>
+                <li>Docker</li>
+                <li>Swagger</li>
+                <li>Asana</li>
+                <li>Linux</li>
+              </ul>
+            </div>
+
+            <div class="empresa">
+              <span class="empresa__ano">Fev/2024 - Abr/2024</span>
+              <h4 class="empresa__titulo">Path Informática</h4>
+              <span class="empresa__titulo">Desenvolvedor Freelancer</span>
+              <p class="empresa__txt">
+                Na Path, integrei a equipe de desenvolvimento do sistema Harpia.
+                Minha responsabilidade foi criar as interfaces usando React.
+                Trabalhei em colaboração com a equipe de backend, que utilizava
+                Adonis.js, permitindo-me aprender sobre a ferramenta e até
+                contribuir com a criação de rotas. Este trabalho foi uma
+                excelente oportunidade para aprimorar minhas habilidades como
+                desenvolvedor full JavaScript.
+              </p>
+              <ul class="empresa__habilidades">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavScript</li>
+                <li>React</li>
+                <li>Prime React</li>
+                <li>TypeScript</li>
+                <li>Componentização</li>
+                <li>Adonis Framework</li>
+                <li>Git</li>
+              </ul>
+            </div>
+
+            <div class="empresa">
+              <span class="empresa__ano">Set/2021 - Jan/2022</span>
+              <h4 class="empresa__titulo">UTIC – Empresa Júnior UFRA</h4>
+              <span class="empresa__titulo"
+                >Analista de Sistemas (Trainee)</span
+              >
+              <article class="empresa__txt">
+                Ser trainee em um programa da UTIC, uma empresa Jr da UFRA, foi
+                uma experiência transformadora. Este programa simulou uma
+                startup que desenvolvia sites. Esse projeto me permitiu adquirir
+                uma vasta gama de habilidades, como desenvolvimento web,
+                usabilidade, reuniões online, apoio no gerenciamento de projetos
+                de software e utilização das metodologias Scrum e Kanban, em um
+                ambiente real de trabalho.
+              </article>
+              <ul class="empresa__habilidades">
+                <li>Metodologias ágeis</li>
+                <li>Scrum</li>
+                <li>Kanban</li>
+                <li>Trello</li>
+                <li>Levantamento de requisitos</li>
+                <li>Briefing</li>
+                <li>UX/UI</li>
+                <li>Figma</li>
               </ul>
             </div>
           </div>
-      </section>
-    </main>
-    <!-- roda_pe -->
-    <footer id="contato" class="rodape" title="rodapé" aria-label="rodapé">
-      <div class="container">
-        <p class="rodape__txt">
-          Estou disponível para novos projetos no momento. Entre em contato
-          comigo e marcamos uma conversa.
-        </p>
-        <ul class="rodape__contato">
-          <li>
-            <a href="mailto:duduroots83@gmail.com?subject=Trabalho&cc=eduardosilvacosta.dev@gmail.com&bcc=eduardo.costa@ufra.edu.br&body=Conteúdo do email que será preenchido automaticamente">Clique aqui para enviar um e-mail</a>
-          </li>
-          <li>
-            <a href="tel:+5591982736545">Clique aqui para falar ao telefone</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/eduardo-silva-costa/" target="_blank" rel="noopener noreferrer">Clique aqui para ir ao
-              <span style="color: #0a66c2">Linkedin</span></a>
-          </li>
-        </ul>
-        <p class="rodape__copy">Direitos reservados</p>
-      </div>
-    </footer>
-  </div>
-  <!-- vlibas -->
-  <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
-    </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-    new window.VLibras.Widget("https://vlibras.gov.br/app");
-  </script>
-</body>
+        </section>
+        <!-- portifolio -->
+        <section
+          class="portfolio"
+          id="portfolio"
+          title="portfolio"
+          aria-label="portfolio"
+        >
+          <div class="container">
+            <h3 class="subtitulo">Portfólio</h3>
 
+            <div class="extras">
+              <div class="projetos">
+                <div class="projetos__grid">
+                  <a
+                    href="https://cafepaidegua.netlify.app/"
+                    target="_blank"
+                    class="projeto__card"
+                  >
+                    <img
+                      src="./img/cafepaidegua.png"
+                      alt="Projeto Café Pai D'Égua"
+                    />
+                    <div class="projeto__info">
+                      <h5>Café Pai D'Égua</h5>
+                      <p>
+                        Sistema de pedido de café da manhã com carrinho, no
+                        estilo iFood, e finalização via WhatsApp.
+                      </p>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://naipedebanjo.netlify.app/"
+                    target="_blank"
+                    class="projeto__card"
+                  >
+                    <img src="./img/naipe.png" alt="Projeto Naipe de Banjo" />
+                    <div class="projeto__info">
+                      <h5>Naipe de Banjo</h5>
+                      <p>Site educacional sobre banjo.</p>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://guiadopara.netlify.app/"
+                    target="_blank"
+                    class="projeto__card"
+                  >
+                    <img src="./img/guia.png" alt="Projeto Guia do Para" />
+                    <div class="projeto__info">
+                      <h5>Guia do Para</h5>
+                      <p>Site informativo sobre o estado do Pará.</p>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://api-pokemon-quasar.netlify.app/"
+                    target="_blank"
+                    class="projeto__card"
+                  >
+                    <img src="./img/apipoke.png" alt="Api Pokémon" />
+                    <div class="projeto__info">
+                      <h5>API Pokémon</h5>
+                      <p>Api Pokémon + Quasar.</p>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://narrativasdocentes.netlify.app/"
+                    target="_blank"
+                    class="projeto__card"
+                  >
+                    <img
+                      src="./img/narrativas.png"
+                      alt="Projeto Narrativas Docentes"
+                    />
+                    <div class="projeto__info">
+                      <h5>Narrativas Docentes</h5>
+                      <p>Projeto sobre relatos e experiências docentes.</p>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://praticaspedagogicas.netlify.app/"
+                    target="_blank"
+                    class="projeto__card"
+                  >
+                    <img
+                      src="./img/praticas.png"
+                      alt="Projeto Práticas Pedagógicas"
+                    />
+                    <div class="projeto__info">
+                      <h5>Práticas Pedagógicas</h5>
+                      <p>Conteúdos sobre práticas educacionais.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- formacao -->
+        <section
+          id="formacao"
+          class="formacao"
+          title="formação"
+          aria-label="formação"
+        >
+          <div class="container content">
+            <h3 class="subtitulo">Formação</h3>
+            <div>
+              <p class="txt">
+                Os cursos de
+                <strong>Análise e Desenvolvimento de Sistemas</strong> e
+                <strong>Licenciatura em Computação</strong> me proporcionaram
+                uma base sólida nas áreas de desenvolvimento de software e
+                educação em tecnologia.
+              </p>
+              <ul class="graduacoes">
+                <li class="graduacao">
+                  <span class="graduacao__tipo">Em andamento</span>
+                  <h4 class="graduacao__nome">Licenciatura em Computação</h4>
+                  <span class="instituicao">UFRA - 2020 a 2026</span>
+                </li>
+                <li class="graduacao">
+                  <span class="graduacao__tipo">Tecnólogo</span>
+                  <h4 class="graduacao__nome">
+                    Análise e Desenvolvimento de Sistemas
+                  </h4>
+                  <span class="instituicao">Estácio - 2018 a 2021</span>
+                </li>
+              </ul>
+              <div class="idiomas">
+                <h4>Idiomas</h4>
+                <ul>
+                  <li>Português <span> / Nativo</span></li>
+                  <li>Inglês <span> / Básico</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- roda_pe -->
+      <footer id="contato" class="rodape" title="rodapé" aria-label="rodapé">
+        <div class="container">
+          <p class="rodape__txt">
+            Estou disponível para novos projetos no momento. Entre em contato
+            comigo e marcamos uma conversa.
+          </p>
+          <ul class="rodape__contato">
+            <li>
+              <a
+                href="mailto:dudu_silvacosta@hotmail.com?subject=Trabalho&body=Conteúdo do email que será preenchido automaticamente"
+                >Clique aqui para enviar um e-mail</a
+              >
+            </li>
+            <li>
+              <a href="tel:+5591982736545"
+                >Clique aqui para falar ao telefone</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/eduardo-silva-costa/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Clique aqui para ir ao
+                <span style="color: #0a66c2">Linkedin</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/dudusilvacosta"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Clique aqui para ir ao Github</a
+              >
+            </li>
+          </ul>
+          <p class="rodape__copy">Direitos reservados</p>
+        </div>
+      </footer>
+    </div>
+    <!-- vlibas -->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+  </body>
 </html>
